@@ -41,6 +41,8 @@ Rect rect = RectGetter.getRectFromKey(globalKey);
 
 ```
 
+## Read More : [利用RectGetter组件获取控件位置尺寸实现的几个高级效果和功能](https://juejin.im/post/5b6375f8e51d45190f4af4c2)
+
 
 ## Getting Started
 
