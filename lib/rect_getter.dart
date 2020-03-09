@@ -21,7 +21,8 @@ class RectGetter extends StatefulWidget {
     var size = object?.semanticBounds?.size;
 
     if (translation != null && size != null) {
-      return new Rect.fromLTWH(translation.x, translation.y, size.width, size.height);
+      return new Rect.fromLTWH(
+          translation.x, translation.y, size.width, size.height);
     } else {
       return null;
     }
