@@ -1,6 +1,6 @@
 name: rect_getter
 description: A widget provide a simple way to get child`s rectangle information after rendered.
-version: 0.1.0
+version: 1.0.0
 homepage: https://github.com/debuggerx01/rect_getter
 
 dependencies:
@@ -12,8 +12,7 @@ dev_dependencies:
     sdk: flutter
 
 environment:
-  sdk: ">=2.0.0-dev.28.0 <3.0.0"
-  flutter: ">=0.1.4 <2.0.0"
+  sdk: ">=2.12.0 <3.0.0"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec

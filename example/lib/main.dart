@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
+  MyHomePage({Key? key, required this.title}) : super(key: key);
 
   final String title;
 
@@ -61,7 +61,8 @@ class _MyHomePageState extends State<MyHomePage> {
               child: new GestureDetector(
                 onTap: () {
                   var rect = RectGetter.getRectFromKey(globalKey);
-                  Scaffold.of(context).showSnackBar(new SnackBar(content: new Text('$index : ${rect.toString()}')));
+                  ScaffoldMessenger.of(context)
+                      .showSnackBar(new SnackBar(content: new Text('$index : ${rect.toString()}')));
                 },
                 child: new Container(
                   color: Colors.primaries[index % Colors.primaries.length],
