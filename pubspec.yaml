@@ -1,6 +1,6 @@
 name: rect_getter
 description: A widget provide a simple way to get child`s rectangle information after rendered.
-version: 1.0.0
+version: 1.1.0
 homepage: https://github.com/debuggerx01/rect_getter
 
 dependencies:

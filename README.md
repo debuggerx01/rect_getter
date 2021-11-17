@@ -16,14 +16,14 @@ import 'package:rect_getter/rect_getter.dart';
 // Instantiate it
 
 var globalKey = RectGetter.createGlobalKey();
-var rectGetter = new RectGetter(
+var rectGetter = RectGetter(
     key: globalKey,
     child: _child,
 );
 
 or
 
-var rectGetter = new RectGetter.defaultKey(
+var rectGetter = RectGetter.defaultKey(
     child: _child,
 );
 
